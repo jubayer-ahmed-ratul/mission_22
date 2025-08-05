@@ -46,8 +46,6 @@ header img{
     display: flex;
     justify-content: space-between;
        margin-top: 2rem;
-    
-
 }
 .card{
 
@@ -57,17 +55,40 @@ header img{
     padding-bottom: 3rem;
     border-radius: 1rem;
 }
-
 .card img{
     width:140px ;
     height: 140px ;
     margin-bottom: 1rem;
 }
-
 .cardHeading{
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
+
+/***************DEVELOPING SECTION***************/
+
+.developImg{
+    width: 50%;
+    margin-right: 9rem;
+    
+
+}
+.img1{
+    height: 300px;
+   
+}
+.img2{
+    height: 100px;
+    margin-bottom: 170px;
+    margin-left: -355px;
+   
+}
+
+.develop{
+    display: flex;
+    align-items: center;
+}
+
 
 
 /***************SHARED RESOURCES***************/
@@ -96,6 +117,13 @@ button{
     text-align: center;
 }
 
+.sectionSubheading{
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
+
+
 /***************RESPONSIVE***************/
 
 @media screen and (max-width:576px ) {
@@ -114,11 +142,27 @@ button{
     .cards{
         flex-direction: column;
         align-items: center;
+        margin-bottom: 3rem;
     }
     .card{
         margin-top: 1rem;
         margin-left: 0px;
         
+        
     }
+    .develop{
+        flex-direction: column-reverse;
+        margin: 0 1rem;
+    }
+    .developImg{
+        margin-top: 1.5rem;
+        margin-left: 0px;
+      
+    }
+    .img2{
+        display: none;
+    }
+    
+
     
 }
