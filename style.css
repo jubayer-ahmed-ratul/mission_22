@@ -89,6 +89,12 @@ header img{
     align-items: center;
 }
 
+.develop .img3{
+    height: 100px;
+    margin-right: -200px;
+    margin-bottom: 20px;
+}
+
 
 
 /***************SHARED RESOURCES***************/
@@ -159,8 +165,12 @@ button{
         margin-left: 0px;
       
     }
-    .img2{
+    .img2 , .img3{
         display: none;
+    }
+    .d2{
+        flex-direction: column;
+        margin-top: 2rem;
     }
     
 
